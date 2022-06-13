@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import Loader from './loader'
+import Loader from './Loader'
 
 const CardCharacter = ({ resident }) => {
 
