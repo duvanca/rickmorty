@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import './App.css'
 import CardCharacter from './components/CardCharacter'
-import InputSearch from './components/inputSearch'
+import InputSearch from './components/InputSearch'
 import LocationInfo from './components/LocationInfo'
 import about from "./img/about.jpg"
 import useLocation from './hooks/useLocation'

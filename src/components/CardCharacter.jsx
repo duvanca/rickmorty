@@ -6,14 +6,14 @@ const CardCharacter = ({ resident }) => {
 
     const [character, setCharacter] = useState()
     const [ loading, setLoading] =useState(true)
-    console.log(character)
+
     useEffect(() => {
         axios.get(resident)
             .then(res => {setCharacter(res.data)
              setLoading(false)})
             .catch(err => (console.log(err)))
     }, [])
-    console.log(character)
+    
 
     const dead = {
         color: 'red'
