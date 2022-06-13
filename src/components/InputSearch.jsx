@@ -12,7 +12,7 @@ const InputSearch = ({ setSearchLocation }) => {
         <form onSubmit={searchLocation}>
             <input type="text" placeholder='id Location 1-126' />
             <button><i className='bx bx-search-alt'></i></button>
-
+        
         </form>
     )
 }
