@@ -7,7 +7,7 @@ import InputSearch from './components/InputSearch'
 import LocationInfo from './components/LocationInfo'
 import about from "./img/about.jpg"
 import useLocation from './hooks/useLocation'
-import Loader from './components/loader'
+import Loader from './components/Loader'
 
 function App() {
   const [searchlocation, setSearchlocation] = useState()
