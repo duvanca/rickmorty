@@ -3,8 +3,12 @@ import React from 'react'
 
 const InputSearch = ({ setSearchLocation }) => {
     const searchLocation = e => {
+        // e.preventDefault()
         e.preventDefault()
+        
         setSearchLocation(e.target.children[0].value)
+       
+        
     }
 
 
