@@ -40,7 +40,7 @@ function App() {
       arrayPages.push(i)
     }
   }
-
+ console.log(arrayResidents)
 
 
   return (
@@ -72,7 +72,7 @@ function App() {
              />
             <div className="character">
               {
-                location?.residents.map(resident => (
+            arrayResidents?.map(resident => (
                   <CardCharacter
                     resident={resident}
                     key={resident}
