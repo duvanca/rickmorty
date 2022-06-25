@@ -82,6 +82,13 @@ function App() {
             </div>
           </div>
 
+          <Pagination
+               arrayPages={arrayPages}
+               currentPage={currentPage}
+               setCurrentPage={setCurrentPage}
+               quantityPages={quantityPages}
+             />
+
         </div>
       }
     </>
